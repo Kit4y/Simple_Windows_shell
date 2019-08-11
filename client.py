@@ -11,7 +11,7 @@ class TcpClient:
         self.client.connect(self.ADDR)
         self.client.settimeout(3)
         while True:
-            self.client.send("cd".encode('utf8'))
+            self.client.send("whoami".encode('utf8'))
             pwd_addr=self.client.recv(self.BUFSIZ)
             print("Hostname:"+str(self.HOST)+" Port:"+str(self.PORT)+" "+pwd_addr.decode('utf8')[0:-1],end=">")
             data=input()
