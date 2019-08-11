@@ -1,1 +1,1 @@
-### 正向的shell，用于windows远程连接
+### 正向的shell，可用于windows远程连接-也可以Linux
