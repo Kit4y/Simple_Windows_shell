@@ -1,0 +1,1 @@
+`pyinstaller -F -w cli.py `打包
